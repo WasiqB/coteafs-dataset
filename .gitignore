@@ -1,0 +1,5 @@
+/target/
+/test-output/
+/*.gpg
+/*.gpg.lock
+/reports/
