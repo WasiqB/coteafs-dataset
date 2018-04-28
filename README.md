@@ -1,1 +1,11 @@
 # coteafs-dataset
+[![CircleCI](https://circleci.com/gh/WasiqB/coteafs-dataset.svg?style=svg)](https://circleci.com/gh/WasiqB/coteafs-dataset)
+[![Dependency Status](https://beta.gemnasium.com/badges/github.com/WasiqB/coteafs-dataset.svg)](https://beta.gemnasium.com/projects/github.com/WasiqB/coteafs-dataset)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=com.github.wasiqb.coteafs%3Adataset&metric=bugs)](https://sonarcloud.io/project/issues?id=com.github.wasiqb.coteafs%3Adataset&resolved=false)
+[![Test Coverage](https://sonarcloud.io/api/project_badges/measure?project=com.github.wasiqb.coteafs%3Adataset&metric=coverage)](https://sonarcloud.io/component_measures?id=com.github.wasiqb.coteafs%3Adataset&metric=Coverage)
+[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=com.github.wasiqb.coteafs%3Adataset&metric=alert_status)](https://sonarcloud.io/dashboard?id=com.github.wasiqb.coteafs%3Adataset)
+[![Maintainability](https://sonarcloud.io/api/project_badges/measure?project=com.github.wasiqb.coteafs%3Adataset&metric=sqale_rating)](https://sonarcloud.io/component_measures?id=com.github.wasiqb.coteafs%3Adataset&metric=Maintainability)
+[![Reliability](https://sonarcloud.io/api/project_badges/measure?project=com.github.wasiqb.coteafs%3Adataset&metric=reliability_rating)](https://sonarcloud.io/component_measures?id=com.github.wasiqb.coteafs%3Adataset&metric=Reliability)
+[![Security](https://sonarcloud.io/api/project_badges/measure?project=com.github.wasiqb.coteafs%3Adataset&metric=security_rating)](https://sonarcloud.io/component_measures?id=com.github.wasiqb.coteafs%3Adataset&metric=Security)
+[![Vulnurability](https://sonarcloud.io/api/project_badges/measure?project=com.github.wasiqb.coteafs%3Adataset&metric=vulnerabilities)](https://sonarcloud.io/component_measures?id=com.github.wasiqb.coteafs%3Adataset&metric=new_vulnerabilities)
+[![Duplicate Code](https://sonarcloud.io/api/project_badges/measure?project=com.github.wasiqb.coteafs%3Adataset&metric=duplicated_lines_density)](https://sonarcloud.io/component_measures?id=com.github.wasiqb.coteafs%3Adataset&metric=Duplications)
