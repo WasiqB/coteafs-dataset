@@ -40,8 +40,7 @@ public class DataSet implements IDataSet {
 
 	/*
 	 * (non-Javadoc)
-	 * @see
-	 * com.github.wasiqb.coteafs.dataset.IDataSet#add(com.github.wasiqb.coteafs.dataset.IDataTable)
+	 * @see com.github.wasiqb.coteafs.dataset.IDataAppendable#add(java.lang.Object)
 	 */
 	@Override
 	public IDataSet add (final IDataTable table) {
@@ -51,7 +50,7 @@ public class DataSet implements IDataSet {
 
 	/*
 	 * (non-Javadoc)
-	 * @see com.github.wasiqb.coteafs.dataset.IDataSet#count()
+	 * @see com.github.wasiqb.coteafs.dataset.IDataIterable#count()
 	 */
 	@Override
 	public int count () {
@@ -60,7 +59,7 @@ public class DataSet implements IDataSet {
 
 	/*
 	 * (non-Javadoc)
-	 * @see com.github.wasiqb.coteafs.dataset.IDataSet#current()
+	 * @see com.github.wasiqb.coteafs.dataset.IDataIterable#current()
 	 */
 	@Override
 	public IDataTable current () {
@@ -70,7 +69,7 @@ public class DataSet implements IDataSet {
 
 	/*
 	 * (non-Javadoc)
-	 * @see com.github.wasiqb.coteafs.dataset.IDataSet#first()
+	 * @see com.github.wasiqb.coteafs.dataset.IDataIterable#first()
 	 */
 	@Override
 	public IDataTable first () {
@@ -80,7 +79,7 @@ public class DataSet implements IDataSet {
 
 	/*
 	 * (non-Javadoc)
-	 * @see com.github.wasiqb.coteafs.dataset.IDataSet#last()
+	 * @see com.github.wasiqb.coteafs.dataset.IDataIterable#last()
 	 */
 	@Override
 	public IDataTable last () {
@@ -90,7 +89,7 @@ public class DataSet implements IDataSet {
 
 	/*
 	 * (non-Javadoc)
-	 * @see com.github.wasiqb.coteafs.dataset.IDataSet#next()
+	 * @see com.github.wasiqb.coteafs.dataset.IDataIterable#next()
 	 */
 	@Override
 	public IDataTable next () {
@@ -99,7 +98,7 @@ public class DataSet implements IDataSet {
 
 	/*
 	 * (non-Javadoc)
-	 * @see com.github.wasiqb.coteafs.dataset.IDataSet#previous()
+	 * @see com.github.wasiqb.coteafs.dataset.IDataIterable#previous()
 	 */
 	@Override
 	public IDataTable previous () {

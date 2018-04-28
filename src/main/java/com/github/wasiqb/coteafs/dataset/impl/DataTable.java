@@ -41,8 +41,7 @@ public class DataTable implements IDataTable {
 
 	/*
 	 * (non-Javadoc)
-	 * @see
-	 * com.github.wasiqb.coteafs.dataset.IDataTable#add(com.github.wasiqb.coteafs.dataset.IDataRow)
+	 * @see com.github.wasiqb.coteafs.dataset.IDataAppendable#add(java.lang.Object)
 	 */
 	@Override
 	public IDataTable add (final IDataRow row) {
@@ -52,7 +51,7 @@ public class DataTable implements IDataTable {
 
 	/*
 	 * (non-Javadoc)
-	 * @see com.github.wasiqb.coteafs.dataset.IDataTable#count()
+	 * @see com.github.wasiqb.coteafs.dataset.IDataIterable#count()
 	 */
 	@Override
 	public int count () {
@@ -61,7 +60,7 @@ public class DataTable implements IDataTable {
 
 	/*
 	 * (non-Javadoc)
-	 * @see com.github.wasiqb.coteafs.dataset.IDataTable#current()
+	 * @see com.github.wasiqb.coteafs.dataset.IDataIterable#current()
 	 */
 	@Override
 	public IDataRow current () {
@@ -70,7 +69,7 @@ public class DataTable implements IDataTable {
 
 	/*
 	 * (non-Javadoc)
-	 * @see com.github.wasiqb.coteafs.dataset.IDataTable#first()
+	 * @see com.github.wasiqb.coteafs.dataset.IDataIterable#first()
 	 */
 	@Override
 	public IDataRow first () {
@@ -79,7 +78,7 @@ public class DataTable implements IDataTable {
 
 	/*
 	 * (non-Javadoc)
-	 * @see com.github.wasiqb.coteafs.dataset.IDataTable#last()
+	 * @see com.github.wasiqb.coteafs.dataset.IDataIterable#last()
 	 */
 	@Override
 	public IDataRow last () {
@@ -88,7 +87,7 @@ public class DataTable implements IDataTable {
 
 	/*
 	 * (non-Javadoc)
-	 * @see com.github.wasiqb.coteafs.dataset.IDataTable#name()
+	 * @see com.github.wasiqb.coteafs.dataset.IDataIdentfiable#name()
 	 */
 	@Override
 	public String name () {
@@ -97,7 +96,7 @@ public class DataTable implements IDataTable {
 
 	/*
 	 * (non-Javadoc)
-	 * @see com.github.wasiqb.coteafs.dataset.IDataTable#name(java.lang.String)
+	 * @see com.github.wasiqb.coteafs.dataset.IDataIdentfiable#name(java.lang.String)
 	 */
 	@Override
 	public IDataTable name (final String tableName) {
@@ -107,7 +106,7 @@ public class DataTable implements IDataTable {
 
 	/*
 	 * (non-Javadoc)
-	 * @see com.github.wasiqb.coteafs.dataset.IDataTable#next()
+	 * @see com.github.wasiqb.coteafs.dataset.IDataIterable#next()
 	 */
 	@Override
 	public IDataRow next () {
@@ -116,7 +115,7 @@ public class DataTable implements IDataTable {
 
 	/*
 	 * (non-Javadoc)
-	 * @see com.github.wasiqb.coteafs.dataset.IDataTable#previous()
+	 * @see com.github.wasiqb.coteafs.dataset.IDataIterable#previous()
 	 */
 	@Override
 	public IDataRow previous () {

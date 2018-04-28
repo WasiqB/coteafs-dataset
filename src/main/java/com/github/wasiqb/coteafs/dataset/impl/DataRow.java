@@ -41,8 +41,7 @@ public class DataRow implements IDataRow {
 
 	/*
 	 * (non-Javadoc)
-	 * @see
-	 * com.github.wasiqb.coteafs.dataset.IDataRow#add(com.github.wasiqb.coteafs.dataset.IDataColumn)
+	 * @see com.github.wasiqb.coteafs.dataset.IDataAppendable#add(java.lang.Object)
 	 */
 	@Override
 	public IDataRow add (final IDataColumn column) {
@@ -97,7 +96,7 @@ public class DataRow implements IDataRow {
 
 	/*
 	 * (non-Javadoc)
-	 * @see com.github.wasiqb.coteafs.dataset.IDataRow#count()
+	 * @see com.github.wasiqb.coteafs.dataset.IDataIterable#count()
 	 */
 	@Override
 	public int count () {
@@ -106,7 +105,7 @@ public class DataRow implements IDataRow {
 
 	/*
 	 * (non-Javadoc)
-	 * @see com.github.wasiqb.coteafs.dataset.IDataRow#current()
+	 * @see com.github.wasiqb.coteafs.dataset.IDataIterable#current()
 	 */
 	@Override
 	public IDataColumn current () {
@@ -116,7 +115,7 @@ public class DataRow implements IDataRow {
 
 	/*
 	 * (non-Javadoc)
-	 * @see com.github.wasiqb.coteafs.dataset.IDataRow#first()
+	 * @see com.github.wasiqb.coteafs.dataset.IDataIterable#first()
 	 */
 	@Override
 	public IDataColumn first () {
@@ -126,7 +125,7 @@ public class DataRow implements IDataRow {
 
 	/*
 	 * (non-Javadoc)
-	 * @see com.github.wasiqb.coteafs.dataset.IDataRow#last()
+	 * @see com.github.wasiqb.coteafs.dataset.IDataIterable#last()
 	 */
 	@Override
 	public IDataColumn last () {
@@ -136,7 +135,7 @@ public class DataRow implements IDataRow {
 
 	/*
 	 * (non-Javadoc)
-	 * @see com.github.wasiqb.coteafs.dataset.IDataRow#next()
+	 * @see com.github.wasiqb.coteafs.dataset.IDataIterable#next()
 	 */
 	@Override
 	public IDataColumn next () {
@@ -147,7 +146,7 @@ public class DataRow implements IDataRow {
 
 	/*
 	 * (non-Javadoc)
-	 * @see com.github.wasiqb.coteafs.dataset.IDataRow#previous()
+	 * @see com.github.wasiqb.coteafs.dataset.IDataIterable#previous()
 	 */
 	@Override
 	public IDataColumn previous () {
