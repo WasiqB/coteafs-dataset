@@ -26,10 +26,9 @@ import com.github.wasiqb.coteafs.dataset.IDataTable;
  * @since Apr 22, 2018
  */
 public class DataSet implements IDataSet {
-	private static boolean	headerPrinted	= false;
-	private int				tableIndex;
-
-	private final List <IDataTable> tables;
+	private boolean					headerPrinted	= false;
+	private int						tableIndex;
+	private final List <IDataTable>	tables;
 
 	/**
 	 * @author Wasiq Bhamla
@@ -150,23 +149,19 @@ public class DataSet implements IDataSet {
 	public String toString () {
 		final StringBuilder sb = new StringBuilder ();
 		tables ().forEach (t -> {
-			headerPrinted = false;
+			this.headerPrinted = false;
 			sb.append ("Table: " + t.name () + "\n");
 			t.rows ()
 				.forEach (r -> {
-					if (!headerPrinted) {
+					if (!this.headerPrinted) {
 						r.columns ()
-							.forEach (c -> {
-								sb.append ("| " + c.variable ()
-									.name () + " ");
-							});
-						headerPrinted = true;
+							.forEach (c -> sb.append ("| " + c.variable ()
+								.name () + " "));
+						this.headerPrinted = true;
 					}
 					sb.append ("|\n");
 					r.columns ()
-						.forEach (c -> {
-							sb.append ("| " + c.value () + " ");
-						});
+						.forEach (c -> sb.append ("| " + c.value () + " "));
 				});
 			sb.append ("|\n\n");
 		});
